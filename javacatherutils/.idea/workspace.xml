@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b19c0c75-88cc-4d78-967d-4287cadd1e93" name="Default Changelist" comment="javacatherutils">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="b19c0c75-88cc-4d78-967d-4287cadd1e93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/test/TimeUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/test/ToolUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/utils/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/utils/ToolUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacatherutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javacatherutils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -11,6 +15,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,7 +56,87 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TimeUtilTest.nowDayZeroTest">
+    <configuration name="TimeUtilTest.getMonthDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacatherutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigjava18.javacatherutils.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigjava18.javacatherutils.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bigjava18.javacatherutils.test.TimeUtilTest" />
+      <option name="METHOD_NAME" value="getMonthDaysTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeUtilTest.getRemainSecondsHourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacatherutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigjava18.javacatherutils.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigjava18.javacatherutils.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bigjava18.javacatherutils.test.TimeUtilTest" />
+      <option name="METHOD_NAME" value="getRemainSecondsHourTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeUtilTest.getRemainSecondsOneDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacatherutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigjava18.javacatherutils.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigjava18.javacatherutils.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bigjava18.javacatherutils.test.TimeUtilTest" />
+      <option name="METHOD_NAME" value="getRemainSecondsOneDayTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeUtilTest.nowDayZeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacatherutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigjava18.javacatherutils.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigjava18.javacatherutils.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bigjava18.javacatherutils.test.TimeUtilTest" />
+      <option name="METHOD_NAME" value="nowDayZeroTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolUtilTest.checkMobileNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacatherutils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigjava18.javacatherutils.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bigjava18.javacatherutils.test" />
+      <option name="MAIN_CLASS_NAME" value="com.bigjava18.javacatherutils.test.ToolUtilTest" />
+      <option name="METHOD_NAME" value="checkMobileNumberTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavacatherutilsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="javacatherutils" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bigjava18.javacatherutils.JavacatherutilsApplication" />
@@ -53,6 +144,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TimeUtilTest.nowDayZeroTest" />
+        <item itemvalue="JUnit.TimeUtilTest.getRemainSecondsHourTest" />
+        <item itemvalue="JUnit.TimeUtilTest.getMonthDaysTest" />
+        <item itemvalue="JUnit.TimeUtilTest.getRemainSecondsOneDayTest" />
+        <item itemvalue="JUnit.ToolUtilTest.checkMobileNumberTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -77,6 +177,10 @@
       <option name="presentableId" value="Default" />
       <updated>1630898244476</updated>
       <workItem from="1630898247534" duration="529000" />
+      <workItem from="1630898785001" duration="1769000" />
+      <workItem from="1630902475048" duration="48000" />
+      <workItem from="1630907195654" duration="17000" />
+      <workItem from="1630916505234" duration="1845000" />
     </task>
     <task id="LOCAL-00001" summary="javacatherutils">
       <created>1630898402368</created>
@@ -85,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630898402368</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="javacatherutils">
+      <created>1630898796295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630898796295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,21 +207,61 @@
     <option name="LAST_COMMIT_MESSAGE" value="javacatherutils" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="271" y="14" key="CommitChangelistDialog2" timestamp="1630898768383">
+    <state x="553" y="284" width="444" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630916621481">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="271" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1630898768383" />
+    <state x="553" y="284" width="444" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1630916621481" />
+    <state x="337" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1630918044098">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="337" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1630918044098" />
+    <state x="271" y="14" key="CommitChangelistDialog2" timestamp="1630898795593">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="271" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1630898795593" />
     <state x="526" y="113" key="FileChooserDialogImpl" timestamp="1630898288620">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="113" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1630898288620" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1630917481533">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1630917481533" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1630917481533">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1630917481533" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1630917481533">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1630917481533" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1630917481533">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1630917481533" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1630917481534">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1630917481534" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1630917481534">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1630917481534" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1630917481534">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1630917481534" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1630917481534">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1630917481534" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1630898306044">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1630898306044" />
-    <state x="361" y="154" key="Vcs.Push.Dialog.v2" timestamp="1630898412735">
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2" timestamp="1630898813083">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="154" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1630898412735" />
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1630898813083" />
   </component>
 </project>
