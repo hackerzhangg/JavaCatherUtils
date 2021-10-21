@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19c0c75-88cc-4d78-967d-4287cadd1e93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/test/AnalyzeUserUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/test/MobileUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/utils/AnalyzeUserUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/utils/MobileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/quartzutil/MyScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/quartzutil/PrintJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bigjava18/javacatherutils/utils/HttpClientUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javacatherutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javacatherutils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -55,19 +54,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.AnalyzeUserUtilTest.getAgeValueTest">
-    <configuration name="AesUtilTest.encryptionValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyScheduler">
+    <configuration name="MyScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bigjava18.javacatherutils.quartzutil.MyScheduler" />
       <module name="javacatherutils" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bigjava18.javacatherutils.test.*" />
+          <option name="PATTERN" value="com.bigjava18.javacatherutils.quartzutil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bigjava18.javacatherutils.test" />
-      <option name="MAIN_CLASS_NAME" value="com.bigjava18.javacatherutils.test.AesUtilTest" />
-      <option name="METHOD_NAME" value="encryptionValue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyScheduler" />
         <item itemvalue="JUnit.AnalyzeUserUtilTest.getAgeValueTest" />
         <item itemvalue="JUnit.AnalyzeUserUtilTest.analyzeUserUtilTest" />
         <item itemvalue="JUnit.MobileUtilTest.mobileUtilTest" />
         <item itemvalue="JUnit.AesUtilTest.getAesKey" />
-        <item itemvalue="JUnit.AesUtilTest.encryptionValue" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +176,10 @@
       <workItem from="1630902475048" duration="48000" />
       <workItem from="1630907195654" duration="17000" />
       <workItem from="1630916505234" duration="4919000" />
-      <workItem from="1630977728320" duration="1440000" />
+      <workItem from="1630977728320" duration="1760000" />
+      <workItem from="1630981645525" duration="564000" />
+      <workItem from="1631001705989" duration="1266000" />
+      <workItem from="1634789502381" duration="453000" />
     </task>
     <task id="LOCAL-00001" summary="javacatherutils">
       <created>1630898402368</created>
@@ -210,18 +209,29 @@
       <option name="project" value="LOCAL" />
       <updated>1630920661974</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="javacatherutils">
+      <created>1630979297241</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630979297241</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="javacatherutils" />
     <MESSAGE value="Aes参数加密实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aes参数加密实现" />
+    <MESSAGE value="javacatherutils" />
+    <option name="LAST_COMMIT_MESSAGE" value="javacatherutils" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1630981820008">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1630981820008" />
     <state x="553" y="284" width="444" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1630916621481">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -230,53 +240,61 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="337" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1630918044098" />
-    <state x="271" y="14" key="CommitChangelistDialog2" timestamp="1630979213584">
+    <state x="271" y="14" key="CommitChangelistDialog2" timestamp="1630979296481">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="271" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1630979213584" />
+    <state x="271" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1630979296481" />
     <state x="526" y="113" key="FileChooserDialogImpl" timestamp="1630898288620">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="113" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1630898288620" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1630979176943">
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1634789676989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1630979176943" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1630979176942">
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1634789676989" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1634789676989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1630979176942" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1630979176942">
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1634789676989" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1634789676989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1630979176942" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1630979176943">
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1634789676989" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1634789676989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1630979176943" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1630978948531">
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1634789676989" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1634789676990">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1630978948531" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1630978948531">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1634789676990" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1634789676989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1630978948531" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1630978948531">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1634789676989" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1634789676989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1630978948531" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1630978948531">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1634789676989" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1634789676989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1630978948531" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1634789676989" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1630898306044">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1630898306044" />
-    <state x="361" y="154" key="Vcs.Push.Dialog.v2" timestamp="1630920668302">
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2" timestamp="1630979304887">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="154" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1630920668302" />
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1630979304887" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1634789597619">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1634789597619" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1630979478976">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1630979478976" />
   </component>
 </project>
